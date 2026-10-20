@@ -1,6 +1,6 @@
 # Claude skills library
 
-All 161 personal Claude Code skills, shared between Izaak's Macs. This list rebuilds itself after every change.
+All 160 personal Claude Code skills, shared between Izaak's Macs. This list rebuilds itself after every change.
 
 ## How it works
 
@@ -36,7 +36,6 @@ gh repo clone bloodbrothercreator/claude-skills /tmp/claude-skills && bash /tmp/
 - [morluto/rea](#morlutorea) (1)
 - [openai/skills](#openaiskills) (1)
 - [pbakaus/impeccable](#pbakausimpeccable) (1)
-- [safishamsi/graphify](#safishamsigraphify) (1)
 - [shadcn/ui](#shadcnui) (1)
 - [TexasBedouin/vibe-check](#texasbedouinvibe-check) (1)
 - [twostraws/SwiftUI-Agent-Skill](#twostrawsswiftui-agent-skill) (1)
@@ -287,12 +286,6 @@ From [openai/skills](https://github.com/openai/skills).
 From [pbakaus/impeccable](https://github.com/pbakaus/impeccable).
 
 - **`/impeccable`**: Use when the user wants to design, redesign, shape, critique, audit, polish, simplify, harden…
-
-### safishamsi/graphify
-
-From [safishamsi/graphify](https://github.com/safishamsi/graphify).
-
-- **`/graphify`**: Use for any question about a codebase, its architecture, file relationships, or project content …
 
 ### shadcn/ui
 
