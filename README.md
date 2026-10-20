@@ -1,6 +1,6 @@
 # Claude skills library
 
-All 160 personal Claude Code skills, shared between Izaak's Macs. This list rebuilds itself after every change.
+All 161 personal Claude Code skills, shared between Izaak's Macs. This list rebuilds itself after every change.
 
 ## How it works
 
@@ -40,7 +40,7 @@ gh repo clone bloodbrothercreator/claude-skills /tmp/claude-skills && bash /tmp/
 - [TexasBedouin/vibe-check](#texasbedouinvibe-check) (1)
 - [twostraws/SwiftUI-Agent-Skill](#twostrawsswiftui-agent-skill) (1)
 - [vercel-labs/skills](#vercel-labsskills) (1)
-- [Homemade or added by hand](#homemade-or-added-by-hand) (1)
+- [Homemade or added by hand](#homemade-or-added-by-hand) (2)
 
 ### Ootto-AI/claude-content-skills
 
@@ -316,3 +316,4 @@ From [vercel-labs/skills](https://github.com/vercel-labs/skills).
 Made for BBM, or added without the installer.
 
 - **`/apple-design`**: Apple's approach to interface design and fluid, physical motion, translated for the web
+- **`/bbm-add-skill`**: Izaak's house rule for adding Claude skills or plugins
