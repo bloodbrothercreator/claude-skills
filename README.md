@@ -1,6 +1,6 @@
 # Claude skills library
 
-All 161 personal Claude Code skills, shared between Izaak's Macs. This list rebuilds itself after every change.
+All 171 personal Claude Code skills, shared between Izaak's Macs. This list rebuilds itself after every change.
 
 ## How it works
 
@@ -26,10 +26,11 @@ gh repo clone bloodbrothercreator/claude-skills /tmp/claude-skills && bash /tmp/
 - [sergebulaev/linkedin-skills](#sergebulaevlinkedin-skills) (12)
 - [addyosmani/agent-skills](#addyosmaniagent-skills) (6)
 - [phuryn/pm-skills](#phurynpm-skills) (6)
+- [neondatabase/agent-skills](#neondatabaseagent-skills) (5)
 - [obra/superpowers](#obrasuperpowers) (5)
 - [anthropics/skills](#anthropicsskills) (3)
-- [neondatabase/agent-skills](#neondatabaseagent-skills) (3)
 - [supabase/agent-skills](#supabaseagent-skills) (2)
+- [vercel-labs/agent-skills](#vercel-labsagent-skills) (2)
 - [blader/humanizer](#bladerhumanizer) (1)
 - [coreyhaines31/marketingskills](#coreyhaines31marketingskills) (1)
 - [Leonxlnx/taste-skill](#leonxlnxtaste-skill) (1)
@@ -40,7 +41,7 @@ gh repo clone bloodbrothercreator/claude-skills /tmp/claude-skills && bash /tmp/
 - [TexasBedouin/vibe-check](#texasbedouinvibe-check) (1)
 - [twostraws/SwiftUI-Agent-Skill](#twostrawsswiftui-agent-skill) (1)
 - [vercel-labs/skills](#vercel-labsskills) (1)
-- [Homemade or added by hand](#homemade-or-added-by-hand) (2)
+- [Homemade or added by hand](#homemade-or-added-by-hand) (8)
 
 ### Ootto-AI/claude-content-skills
 
@@ -218,6 +219,16 @@ From [phuryn/pm-skills](https://github.com/phuryn/pm-skills).
 - **`/prioritize-features`**: Prioritize a backlog of feature ideas based on impact, effort, risk, and strategic alignment with…
 - **`/user-stories`**: Create user stories following the 3 C's (Card, Conversation, Confirmation) and INVEST criteria…
 
+### neondatabase/agent-skills
+
+From [neondatabase/agent-skills](https://github.com/neondatabase/agent-skills).
+
+- **`/neon-auth`**: Add authentication to a new app
+- **`/neon-object-storage`**: S3-compatible object storage that branches with your database, so each branch gets its own copy…
+- **`/neon-postgres-branches`**: Choose and create the right Neon branch type for testing and development
+- **`/neon-postgres`**: Guides and best practices for working with Lakebase Postgres on Neon: connections, pooled vs…
+- **`/neon`**: Overview of Neon, a complete set of cloud backend primitives around Lakebase Postgres: Auth…
+
 ### obra/superpowers
 
 From [obra/superpowers](https://github.com/obra/superpowers).
@@ -236,20 +247,19 @@ From [anthropics/skills](https://github.com/anthropics/skills).
 - **`/frontend-design`**: Guidance for distinctive, intentional visual design when building new UI or reshaping an existing…
 - **`/webapp-testing`**: Toolkit for interacting with and testing local web applications using Playwright
 
-### neondatabase/agent-skills
-
-From [neondatabase/agent-skills](https://github.com/neondatabase/agent-skills).
-
-- **`/neon-auth`**: Add authentication to a new app
-- **`/neon-object-storage`**: S3-compatible object storage that branches with your database, so each branch gets its own copy…
-- **`/neon-postgres-branches`**: Choose and create the right Neon branch type for testing and development
-
 ### supabase/agent-skills
 
 From [supabase/agent-skills](https://github.com/supabase/agent-skills).
 
 - **`/supabase-postgres-best-practices`**: Postgres best practices maintained by Supabase, for Postgres running anywhere
 - **`/supabase`**: Use when doing ANY task involving Supabase
+
+### vercel-labs/agent-skills
+
+From [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills).
+
+- **`/vercel-react-best-practices`**: React and Next.js performance optimization guidelines from Vercel Engineering
+- **`/web-design-guidelines`**: Review UI code for Web Interface Guidelines compliance
 
 ### blader/humanizer
 
@@ -316,4 +326,10 @@ From [vercel-labs/skills](https://github.com/vercel-labs/skills).
 Made for BBM, or added without the installer.
 
 - **`/apple-design`**: Apple's approach to interface design and fluid, physical motion, translated for the web
+- **`/arscontexta-setup-claude-code`**: Fixes and working method for running the Ars Contexta plugin's /arscontexta:setup (v0.8.x) in…
 - **`/bbm-add-skill`**: Izaak's house rule for adding Claude skills or plugins
+- **`/claude-mcp-connector-oauth`**: How to turn a Next.js (App Router) app into a remote MCP server that someone adds to claude.ai /…
+- **`/mixamo-threejs`**: Use when bringing Mixamo characters and animations into a Three.js web page - downloading them…
+- **`/neon-via-vercel`**: Using Neon when the Neon org is "managed by Vercel" (databases created through Vercel → Storage)…
+- **`/new-project`**: Start a new project the standard way
+- **`/polyhaven-threejs`**: Use when a Three.js scene needs realistic free (CC0) furniture, props or surface textures …
