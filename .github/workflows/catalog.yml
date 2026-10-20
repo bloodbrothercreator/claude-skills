@@ -1,0 +1,18 @@
+name: Rebuild skills list
+on:
+  push:
+    branches: [main]
+permissions:
+  contents: write
+jobs:
+  readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 _sync/catalog.py
+      - run: |
+          git diff --quiet README.md && exit 0
+          git config user.name "skills-catalog"
+          git config user.email "actions@users.noreply.github.com"
+          git commit -qm "Update the skills list" README.md
+          git push
