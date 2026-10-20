@@ -2,6 +2,7 @@ name: Rebuild skills list
 on:
   push:
     branches: [main]
+concurrency: readme
 permissions:
   contents: write
 jobs:
@@ -15,4 +16,5 @@ jobs:
           git config user.name "skills-catalog"
           git config user.email "actions@users.noreply.github.com"
           git commit -qm "Update the skills list" README.md
+          git pull -q --rebase
           git push
