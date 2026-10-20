@@ -5,7 +5,7 @@ description: Izaak's house rule for adding Claude skills or plugins. Use wheneve
 
 # Adding a skill (Izaak's rule)
 
-Every skill Izaak asks for goes to three places: this Mac, the shared skills library on GitHub, and the GlenDesk board "AI Tools & How to Use".
+Every skill Izaak asks for goes to four places: this Mac, the shared skills library on GitHub, and the GlenDesk boards "AI Tools & How to Use" (by source) and "Skills by Job" (by task).
 
 1. **Find it.** From a reel, read the caption (the Instagram page's `og:description` has the full script). Find the source repo (`gh search repos`, `npx skills find`). Check what we already have (`ls ~/.claude/skills`, `claude plugin list`).
 2. **Check it before installing.** Look for hooks (`hooks/hooks.json`), add-on servers (`.mcp.json`), scripts that call the internet, and anything that runs in every session. Plain instruction skills are fine. Anything that runs by itself, sends data elsewhere, uses his logins to scrape sites, or changes settings: explain it in plain English and ask first.
