@@ -1,6 +1,6 @@
 ---
 name: bbm-add-skill
-description: Izaak's house rule for adding Claude skills or plugins. Use whenever Izaak asks to add, install or download a skill, plugin or tool, from a reel, a link, a repo or just a name, or asks "do we have a skill for X". It installs the skill, adds it to the GlenDesk "AI Tools & How to Use" board and syncs the shared skills library.
+description: Izaak's house rule for adding Claude skills or plugins. Use whenever Izaak asks to add, install or download a skill, plugin or tool, from a reel, a link, a repo or just a name, or asks "do we have a skill for X". It installs the skill, adds it to the GlenDesk "AI Tools & How to Use" and "Skills by Job" boards, and syncs the shared skills library.
 ---
 
 # Adding a skill (Izaak's rule)
@@ -16,4 +16,5 @@ Every skill Izaak asks for goes to three places: this Mac, the shared skills lib
    - The board has five rows: From the videos (pink), Always on (purple), Skill packs (blue), Claude app plugins (green), Built in (grey). "Not installed - and why" is red.
    - A skill from a video gets its own column at the right end of "From the videos": the reel's link card, then one note: "How to Use:" with plain-English bullets (`/commands` in code style), then **Skills (N):** the names, and **Get it:** the repo link. Otherwise add it to the matching pack's column.
    - Adding cards: GlenDesk's own paste format (`bbmos-board-cards:v1:` + `{cards, arrows}` JSON, see christmas-calendar-pm `src/components/boards/board-canvas.tsx` onPaste). Paste a reel's URL on the canvas to get its link card with a preview.
-6. **Tell Izaak** in plain English what it does and how to use it, plus anything left out and why.
+6. **Add it to "Skills by Job" too:** https://bbmos.app/me/boards/9b3b6006-38d4-4efb-8f1e-7ac1b5c98bf5. It holds the same skills sorted by task, one column per job (Copywriting, Email marketing, Social media, LinkedIn, Video editing, Graphic design and images, Brand, Marketing strategy, Sales and sponsors, Customers, Money and admin, Hiring, Project management, Research and ideas, Data and reports, Documents, Web design, Building apps, Automation). Add a bullet `` `/name`: what it's for `` in every job it helps with. If it fits none, make a new job column in the right row.
+7. **Tell Izaak** in plain English what it does and how to use it, plus anything left out and why.
