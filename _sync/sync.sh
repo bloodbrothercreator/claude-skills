@@ -9,7 +9,10 @@ log() { echo "$(date '+%F %T') $*" >> "$LOG"; }
 cd "$DIR" || { log "no $DIR"; exit 1; }
 
 # One run at a time (the timer and a manual run can overlap).
-LOCK="${TMPDIR:-/tmp}/claude-skills-sync.lock"
+LOCK="$HOME/Library/Caches/claude-skills-sync.lock"
+mkdir -p "$HOME/Library/Caches"
+# A lock left by a run that was killed doesn't block syncing for more than 10 minutes.
+[ -d "$LOCK" ] && [ -n "$(find "$LOCK" -maxdepth 0 -mmin +10)" ] && rmdir "$LOCK"
 mkdir "$LOCK" 2>/dev/null || exit 0
 trap 'rmdir "$LOCK"' EXIT
 
