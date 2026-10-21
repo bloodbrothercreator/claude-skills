@@ -1,0 +1,91 @@
+{
+  "version": 1,
+  "stages": [
+    { "id": "explore", "label": "Explore", "help": "Type the title, pick styles, get quick directions." },
+    { "id": "final", "label": "Final", "help": "Faces, references and a detailed brief for the real thumbnail." },
+    { "id": "fix", "label": "Fix", "help": "Correct one person or one thing in a picked image." }
+  ],
+  "videoTypes": [
+    {
+      "id": "gaming-hybrid",
+      "label": "Gaming: real heads on game bodies",
+      "help": "Photographic faces on stylised game characters (R.E.P.O., PEAK, Backrooms, Super Battle Golf, Bombanana).",
+      "planner": { "faces": "photographic heads, slightly oversized, seated naturally on stylised game bodies; no human torsos unless the game's bodies are human", "render": "stylised game world and bodies, photographic faces only" }
+    },
+    {
+      "id": "gaming-horror",
+      "label": "Gaming: co-op horror",
+      "help": "Dark game world, monster reveal, bright readable faces.",
+      "planner": { "lighting": "scene stays dark; faces lit frontally and clearly; monster selectively lit and readable" }
+    },
+    {
+      "id": "irl-stunt",
+      "label": "IRL stunt / challenge",
+      "help": "Real-world photo look (McDonald's roof, remote island, buried plane).",
+      "planner": { "render": "realistic, photographic, polished; not cartoon, not painterly, not over-HDR" }
+    },
+    {
+      "id": "product",
+      "label": "Product showcase",
+      "help": "Person plus products that must stay exactly as in the reference (Pokémon boxes).",
+      "planner": { "products": "preserve packaging, text, branding and artwork exactly; only lighting, angle and shadow may change", "render": "premium studio photography, clean background" }
+    },
+    {
+      "id": "reaction-talk",
+      "label": "Reaction / talking",
+      "help": "Faces and one strong prop or background idea.",
+      "planner": { "render": "bright, clean, faces dominant" }
+    }
+  ],
+  "referenceRoles": [
+    { "id": "face", "label": "Face", "perPerson": true, "planner": "Use @{label} ONLY as the facial identity reference for {person}. One picture, one person." },
+    { "id": "composition", "label": "Composition (inspiration thumbnail)", "planner": "Use @{label} ONLY for composition, layout, scale, framing, expression intensity and lighting style. Do NOT copy any person or identity from @{label}." },
+    { "id": "world", "label": "World / gameplay", "planner": "Use @{label} as the authoritative reference for the game's world, environment, art style, character bodies, clothing and props. Do not copy HUD, text, health bars, money counters or any interface." },
+    { "id": "polish", "label": "Thumbnail polish (house style)", "planner": "Use @{label} only as the reference for thumbnail compositing: how photographic heads integrate into bodies, head scale, facial readability, bright frontal lighting and finish. Do not use its faces." },
+    { "id": "character", "label": "Character / monster / mascot", "planner": "Use @{label} as the authoritative design reference for {name}. Preserve its defining features; do not redesign it." },
+    { "id": "prop", "label": "Prop", "planner": "Use @{label} as the authoritative reference for the {name}. Match its shape, proportions, colours and design language; do not make it generic." },
+    { "id": "product", "label": "Product (exact)", "planner": "Use @{label} as the strict reference for {name}. Preserve packaging colours, all visible text, branding, badges and artwork exactly. Only lighting, viewing angle and natural shadow may change." },
+    { "id": "environment", "label": "Environment / location", "planner": "Use @{label} as the reference for the setting and background." },
+    { "id": "base", "label": "Base image (Fix only)", "planner": "Use @{label} as the base thumbnail. Preserve its composition and everything not being fixed." }
+  ],
+  "channelStyles": [
+    { "id": "tgfbro", "label": "TGFbro", "source": "@tgfbro", "note": "Most used with willne in 1of10 (219 images)." },
+    { "id": "willne", "label": "Willne", "source": "@willne", "note": "Most used style in 1of10 (224 images)." },
+    { "id": "sidemen", "label": "Sidemen", "source": "@sidemen" },
+    { "id": "jayswingler", "label": "Jay Swingler", "source": "@jayswingler" },
+    { "id": "jayswingler2", "label": "Jay Swingler 2", "source": "@jayswingler2" }
+  ],
+  "storyPatterns": [
+    { "id": "threat-reveal", "label": "Monster / threat reveal", "example": "TWO FRIENDS TRAPPED WITH A TERRIFYING MONSTER." },
+    { "id": "role-gag", "label": "Each person has a handicap or role", "example": "ONE CAN'T TALK. ONE CAN'T SEE. ONE CAN'T HEAR. AND THEY HAVE TWO SECONDS LEFT." },
+    { "id": "team-fail", "label": "The team failed", "example": "THE TEAM FAILED TO SAVE HIM." },
+    { "id": "silent-tension", "label": "Frozen tension", "example": "DON'T MAKE A SOUND." },
+    { "id": "ganged-up", "label": "Everyone vs one", "example": "TWO PLAYERS ATTACK THE ONE IN THE MIDDLE." },
+    { "id": "did-they-really", "label": "Did they really do that?", "example": "Wait… they actually put a tent on top of McDonald's?" },
+    { "id": "chase", "label": "Chase", "example": "HE'S BEING CHASED AND HE'S RUNNING OUT OF TIME." },
+    { "id": "absurd-object", "label": "Absurd object", "example": "A WINGLESS PLANE IS BURIED IN THE GROUND." }
+  ],
+  "layouts": [
+    { "id": "triangle", "label": "Triangle: one centre, two sides" },
+    { "id": "left-right-threat", "label": "Person left, threat right" },
+    { "id": "players-front-monster-back", "label": "Players in front, monster looming behind" },
+    { "id": "monster-centre-players-sides", "label": "Player left → monster centre → player right" },
+    { "id": "big-face-plus-scene", "label": "Big face one side, scene the other" },
+    { "id": "symmetric-products", "label": "Person centre, products either side" },
+    { "id": "from-composition-ref", "label": "Follow the composition reference" }
+  ],
+  "cameraPresets": [
+    { "id": "wide-low", "label": "Wide angle, low-to-medium height", "planner": "18–22 mm wide-angle lens from a low-to-medium camera height" },
+    { "id": "ultrawide-fisheye", "label": "Ultra-wide, mild fisheye, high drop", "planner": "14–18 mm ultra-wide lens, mild fisheye, camera slightly above and beside the action so the drop is visible" },
+    { "id": "close-wide", "label": "Very close wide angle", "planner": "close dramatic wide-angle lens, faces very near the camera, strong depth" },
+    { "id": "straight-on", "label": "Straight-on studio", "planner": "straight-on camera, clean studio framing" },
+    { "id": "corner-reveal", "label": "Corner reveal", "planner": "camera at the outside edge of a corridor corner, characters turning back toward a reveal" }
+  ],
+  "faceScale": { "mainFacePercentOfFrame": [35, 45], "rule": "Nobody tiny or distant; a face inside a tent or far back loses likeness." },
+  "quality": {
+    "explore": { "model": "gpt-image-2", "quality": "medium", "images": 4, "stylePictures": 2, "photosPerPerson": 1 },
+    "final": { "model": "gpt-image-2", "quality": "high", "images": 1, "size": "1536x864", "photosPerPerson": 2 },
+    "fix": { "model": "gpt-image-2", "quality": "high", "images": 1, "size": "1536x864" }
+  },
+  "alwaysExclude": ["text", "logos", "arrows", "captions", "borders", "HUD or game interface", "timers or timestamps from references", "usernames", "watermarks", "gore"]
+}
