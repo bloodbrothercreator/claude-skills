@@ -1,6 +1,6 @@
 # Claude skills library
 
-All 171 personal Claude Code skills, shared between Izaak's Macs. This list rebuilds itself after every change.
+All 172 personal Claude Code skills, shared between Izaak's Macs. This list rebuilds itself after every change.
 
 ## How it works
 
@@ -41,7 +41,7 @@ gh repo clone bloodbrothercreator/claude-skills /tmp/claude-skills && bash /tmp/
 - [TexasBedouin/vibe-check](#texasbedouinvibe-check) (1)
 - [twostraws/SwiftUI-Agent-Skill](#twostrawsswiftui-agent-skill) (1)
 - [vercel-labs/skills](#vercel-labsskills) (1)
-- [Homemade or added by hand](#homemade-or-added-by-hand) (8)
+- [Homemade or added by hand](#homemade-or-added-by-hand) (9)
 
 ### Ootto-AI/claude-content-skills
 
@@ -333,3 +333,4 @@ Made for BBM, or added without the installer.
 - **`/neon-via-vercel`**: Using Neon when the Neon org is "managed by Vercel" (databases created through Vercel → Storage)…
 - **`/new-project`**: Start a new project the standard way
 - **`/polyhaven-threejs`**: Use when a Three.js scene needs realistic free (CC0) furniture, props or surface textures …
+- **`/thumbnail-prompt`**: Writes YouTube thumbnail image prompts in Blood Brother Media's proven house format for GPT Image…
