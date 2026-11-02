@@ -1,6 +1,6 @@
 # Claude skills library
 
-All 172 personal Claude Code skills, shared between Izaak's Macs. This list rebuilds itself after every change.
+All 178 personal Claude Code skills, shared between Izaak's Macs. This list rebuilds itself after every change.
 
 ## How it works
 
@@ -33,15 +33,20 @@ gh repo clone bloodbrothercreator/claude-skills /tmp/claude-skills && bash /tmp/
 - [vercel-labs/agent-skills](#vercel-labsagent-skills) (2)
 - [blader/humanizer](#bladerhumanizer) (1)
 - [coreyhaines31/marketingskills](#coreyhaines31marketingskills) (1)
+- [Dammyjay93/interface-design](#dammyjay93interface-design) (1)
+- [dominikmartn/hue](#dominikmartnhue) (1)
+- [jakubkrehel/skills](#jakubkrehelskills) (1)
 - [Leonxlnx/taste-skill](#leonxlnxtaste-skill) (1)
 - [morluto/rea](#morlutorea) (1)
+- [nextlevelbuilder/ui-ux-pro-max-skill](#nextlevelbuilderui-ux-pro-max-skill) (1)
+- [nutlope/hallmark](#nutlopehallmark) (1)
 - [openai/skills](#openaiskills) (1)
 - [pbakaus/impeccable](#pbakausimpeccable) (1)
 - [shadcn/ui](#shadcnui) (1)
 - [TexasBedouin/vibe-check](#texasbedouinvibe-check) (1)
 - [twostraws/SwiftUI-Agent-Skill](#twostrawsswiftui-agent-skill) (1)
 - [vercel-labs/skills](#vercel-labsskills) (1)
-- [Homemade or added by hand](#homemade-or-added-by-hand) (9)
+- [Homemade or added by hand](#homemade-or-added-by-hand) (10)
 
 ### Ootto-AI/claude-content-skills
 
@@ -273,6 +278,24 @@ From [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketings
 
 - **`/copywriting`**: When the user wants to write, rewrite, or improve marketing copy for any page, including…
 
+### Dammyjay93/interface-design
+
+From [Dammyjay93/interface-design](https://github.com/Dammyjay93/interface-design).
+
+- **`/interface-design`**: Craft-first interface design for dashboards, admin panels, SaaS apps, tools, settings pages, data…
+
+### dominikmartn/hue
+
+From [dominikmartn/hue](https://github.com/dominikmartn/hue).
+
+- **`/hue`**: Meta-skill that generates new design language skills
+
+### jakubkrehel/skills
+
+From [jakubkrehel/skills](https://github.com/jakubkrehel/skills).
+
+- **`/better-typography`**: Sets and reviews how text renders, from the type scale and spacing to font features, wrapping…
+
 ### Leonxlnx/taste-skill
 
 From [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill).
@@ -284,6 +307,18 @@ From [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill).
 From [morluto/rea](https://github.com/morluto/rea).
 
 - **`/reverse-engineer-anything`**: Reverse engineer native, managed, Electron/JavaScript, packaged, firmware, and browser targets…
+
+### nextlevelbuilder/ui-ux-pro-max-skill
+
+From [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill).
+
+- **`/ui-ux-pro-max`**: UI/UX design intelligence for web, mobile, and desktop
+
+### nutlope/hallmark
+
+From [nutlope/hallmark](https://github.com/nutlope/hallmark).
+
+- **`/hallmark`**: Design skill for websites and new pages that look designed, not generated
 
 ### openai/skills
 
@@ -333,4 +368,5 @@ Made for BBM, or added without the installer.
 - **`/neon-via-vercel`**: Using Neon when the Neon org is "managed by Vercel" (databases created through Vercel → Storage)…
 - **`/new-project`**: Start a new project the standard way
 - **`/polyhaven-threejs`**: Use when a Three.js scene needs realistic free (CC0) furniture, props or surface textures …
+- **`/stitch-extract-design-md`**: Extract a comprehensive design system (DESIGN.md) directly from frontend source code — React…
 - **`/thumbnail-prompt`**: Writes YouTube thumbnail image prompts in Blood Brother Media's proven house format for GPT Image…
