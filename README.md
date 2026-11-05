@@ -1,6 +1,6 @@
 # Claude skills library
 
-All 184 personal Claude Code skills, shared between Izaak's Macs. This list rebuilds itself after every change.
+All 183 personal Claude Code skills, shared between Izaak's Macs. This list rebuilds itself after every change.
 
 ## How it works
 
@@ -46,7 +46,7 @@ gh repo clone bloodbrothercreator/claude-skills /tmp/claude-skills && bash /tmp/
 - [TexasBedouin/vibe-check](#texasbedouinvibe-check) (1)
 - [twostraws/SwiftUI-Agent-Skill](#twostrawsswiftui-agent-skill) (1)
 - [vercel-labs/skills](#vercel-labsskills) (1)
-- [Homemade or added by hand](#homemade-or-added-by-hand) (16)
+- [Homemade or added by hand](#homemade-or-added-by-hand) (15)
 
 ### Ootto-AI/claude-content-skills
 
@@ -375,4 +375,3 @@ Made for BBM, or added without the installer.
 - **`/steal-like-an-artist`**: BBM's "Steal Like an Artist" method for turning a reference that caught your eye into an original…
 - **`/stitch-extract-design-md`**: Extract a comprehensive design system (DESIGN.md) directly from frontend source code — React…
 - **`/thumbnail-prompt`**: Writes YouTube thumbnail image prompts in Blood Brother Media's proven house format for GPT Image…
-- **`/vox-motion-graphics`**: Izaak's opt-in Higgsfield pipeline for an AI-generated Vox-style narrated explainer (research…
